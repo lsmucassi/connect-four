@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         //change player
                         currentPlayer = 2
                         displayCurrentPlayer.innerHTML = currentPlayer
-                    } else if (currentPlayer ===) {
+                    } else if (currentPlayer === 2) {
                         squares[index].classList.add('taken')
                         squares[index].classList.add('player-two')
                         //chage player
